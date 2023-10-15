@@ -1,0 +1,23 @@
+name: EssentialsX
+author: skyss0fly
+api: 5.0.0
+version: 1.0.1
+
+commands:
+essx:
+description: Usage: /essx help
+permission: EssentialsX.essx
+
+subcommands:
+help: 
+description: get Help
+permission: EssentialsX.help
+
+permissions:
+EssentialsX.essx:
+default: false
+description: main command
+
+EssentialsX.help:
+default: true
+description: Get Help
